@@ -29,8 +29,8 @@ object Constants {
   val LOGICAL_ENTITY_DIR = "LogicalDefinition"
   val defaultCompressionFormat = "snappy"
   val SPARK_MODELROOT_NAMESPACE = "SparkModelRoot"
-  val CDM_DEFAULT_PRECISION = 18
-  val CDM_DEFAULT_SCALE = 4
+  val CDM_DEFAULT_PRECISION = 32
+  val CDM_DEFAULT_SCALE = 10
   var PRODUCTION = true
   val DEFAULT_DELIMITER = ','
   val SPARK_NAMESPACE = "SparkManifestLocation"
